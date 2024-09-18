@@ -1,0 +1,428 @@
+body{
+    background-color: #8CC461;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border:white solid 2px;
+    border-radius: 10px;
+    margin:30px 0px;
+    height: 120px;
+    padding: 10px;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+}
+.text{
+    font-size: xx-large;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-weight: 500;
+}
+.items{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    color:black;
+    padding:5px;
+}
+.bg--white{
+    background-color: white;
+    height: 95px;
+    padding: 10px;
+    border-radius:  10px;
+    width: 90px;
+    text-align: center;
+    line-height: 20px;
+}
+input{
+    height: 60px;
+    width: 80px;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+    column-gap: 120px;
+    position: relative;
+}
+.con{
+    background-color: #0074b6;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    cursor: pointer;
+    position: relative;
+    z-index: 10;
+}
+.con1{
+    background-color: white;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    cursor: pointer
+}
+.con2{
+    background-color: #bd00ff;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    cursor: pointer;
+    position: relative;
+    z-index: 10;
+}
+.cons{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    position: relative;
+    z-index: 10;
+}
+.con3{
+    background-color: #ffa943;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    cursor: pointer;
+}
+#ass{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    position:fixed;
+    bottom: 30px;
+    right:30px;
+    
+}
+#dis{
+    height: 400px;
+    width: 320px;
+    background-color: white;
+    border-radius: 20px;
+    position: relative;
+    right: 30px;
+}
+.crossos{
+    width: 320px;
+    height: 320px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 40px;
+    right: -15px;
+}
+.game{
+    font-size: xx-large;
+    font-weight: 500;
+    margin-bottom: 10px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.relative1{
+    background-color: white;
+}
+.rules{
+    list-style: square;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+.rules{
+    background-color: #004429;
+    padding: 30px;
+    border-radius: 10px;
+    
+    li::marker{
+        color:#ffd600;
+        font-size:25px;
+    }
+
+}
+.cross{
+    width: 90px;
+    height: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background-color: red;
+}
+.buttoncross{
+    width: 95px;
+    height: 95px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    background-color: white;
+    cursor: pointer;
+    border: none;
+    position: absolute;
+    top: -45px;
+    right: -80px;
+}
+.buttonofrules{
+   display: flex;
+   justify-content: end;
+}
+.buttonofrules1{
+    width: 150px;
+    height: 50px;
+    background-color: #89c15e;
+    border-radius: 10px;
+    border: 2px solid white ;
+    color:white;
+    font-size: x-large;
+    margin-top: 30px;
+    
+}
+.line1{
+    
+    position: absolute;
+    top: 50px;
+    left:40rem;
+    z-index: 0;
+}
+.line2{
+    position: absolute;
+    top: 9rem;
+    rotate: 49deg;
+    left: 36rem;
+}
+.line3{
+    position: absolute;
+    top: 9rem;
+    rotate: 125deg;
+    left: 44rem;
+}
+h1{
+    line-height: 40px;
+    text-align: center;
+    word-spacing: 18px;
+    
+}
+.replay{
+    background-color: white;
+    color:#6b6b6b;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: small;
+    font-weight: 600;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+#lost{
+    text-align: center;
+    word-spacing: 18px;
+    font-size: 35px;
+    margin: 0 0 5px 0;
+}
+#against{
+    text-align: center;
+    word-spacing: 18px;
+    font-size: 23px;
+    margin: 0 0 15px 0;
+}
+.playagain{
+    background-color: white;
+    color:#6b6b6b;
+    width: 180px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: small;
+    font-weight: 600;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 0;
+}
+.round1{
+    background-color: #3b6720;
+    width: 140px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    animation: scaleIn 4s infinite cubic-bezier(.36, .11, .89, .32);
+}
+@keyframes scaleIn{
+    from{
+        transform: scale(50%,50%);
+        opacity: 100%;
+    }
+    to{
+        transform: scale(250%,250%);
+        opacity: 0;
+    }
+}
+.round2{
+    background-color: #1da82b;
+    width: 160px;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    animation: scaleIn 4s infinite cubic-bezier(0.36,0.11,0.89,0.);
+}
+.round3{
+    background-color: #2e9a25;
+    width: 180px;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    animation: scaleIn 4s infinite cubic-bezier(0.36,0.11,0.89,0.);
+}
+.picked{
+    position: absolute;
+    top: -40px;
+    left:27%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cspicked{
+    position: absolute;
+    top: -40px;
+    right:26.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#ass1{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    position:fixed;
+    bottom: 30px;
+    right:30px;
+    
+}
+#ass2{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    position:fixed;
+    bottom: 30px;
+    right:210px;
+    
+}
+.dis1{
+    display: none;
+}
+.buttonofrules2{
+    width: 150px;
+    height: 50px;
+    background-color: #89c15e;
+    border-radius: 10px;
+    border: 2px solid white ;
+    color:white;
+    font-size: x-large;
+    margin-top: 30px;
+    
+}
+.buttonofrules3{
+    width: 150px;
+    height: 50px;
+    background-color: #89c15e;
+    border-radius: 10px;
+    border: 2px solid white ;
+    color:white;
+    font-size: x-large;
+    margin-top: 30px;
+    
+}
+.coup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.cup{
+    position: absolute;
+    top:13rem;
+}
+.coup1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.hurray{
+    font-size: 6rem;
+    margin: 30px 0 0 0;
+}
+.wonthe{
+    font-size: 2.7rem;
+    margin: 40px 0 60px 0 ;
+}
+.playagain1{
+    background-color: white;
+    color:#6b6b6b;
+    width: 180px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    font-size: small;
+    font-weight: 600;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 0 0 100px 0;
+}
+@media (min-width:1440px) {
+    body{
+        max-width: 1440px;
+        margin: auto;
+    }
+    
+}
+.star {
+    opacity: 0.2;
+    animation: fill-in 1s infinite cubic-bezier(.36, .11, .89, .32);
+}
+.cup{
+    opacity: .5;
+    animation: fill-in 1s infinite cubic-bezier(.36, .11, .89, .32);
+}
+@keyframes fill-in{
+    to{
+        opacity: 1.5;
+    }
+}
