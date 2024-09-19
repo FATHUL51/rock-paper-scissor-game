@@ -424,9 +424,9 @@ h1{
         left:31rem;
     }
 }
-@media (min-width:2560px){
+@media (min-width:2500px){
     .main{
-        margin-top: 13rem;
+        margin-top: 31rem;
     }
 }
 .star {
